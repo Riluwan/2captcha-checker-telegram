@@ -1,0 +1,7 @@
+{
+    "name": "telegram-bot-2captcha",
+    "description": "A Telegram bot to check 2Captcha key",
+    "require": {
+        "ext-curl": "*"
+    }
+}
