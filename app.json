@@ -1,0 +1,10 @@
+{
+    "name": "Telegram Bot 2Captcha",
+    "description": "A Telegram bot to check 2Captcha key",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "The Telegram bot token",
+            "required": true
+        }
+    }
+}
