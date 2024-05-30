@@ -3,7 +3,7 @@
 // Define your bot token and 2Captcha API key from environment variables
 define('BOT_TOKEN', getenv('BOT_TOKEN'));
 define('API_URL', 'https://api.telegram.org/bot' . BOT_TOKEN . '/');
-define('CAPTCHA_API_KEY', getenv('CAPTCHA_API_KEY'));
+define('CAPTCHA_API_KEY', 'YOUR_2CAPTCHA_API_KEY'); // Hardcode your 2Captcha API key here
 
 function apiRequest($method, $parameters) {
     if (!is_string($method)) {
